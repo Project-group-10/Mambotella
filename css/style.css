@@ -1,0 +1,356 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #f8f7f0;
+}
+/*header styling*/
+.header{
+    display: flex;
+    align-items: center;
+    height: 90px;
+    background: #322a22;
+    position: relative;
+}
+.header .logo{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 0;
+    left: 4%;
+    
+}
+.header .logo img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.header .links{
+  margin-left: auto;
+    
+}
+.header .links a{
+    /*top right bottom left 
+    Lobster;HurmeGeometricSans3-SemiBold;*/
+    padding: 0em 2em 0em 2em;
+    color: aliceblue;
+    text-decoration: none;
+   /* font-family: "Sofia", sans-serif;*/
+    font-family: 'Nunito', sans-serif;
+
+   
+}
+.header .links a:hover{
+    color: #322a22;
+    background: aliceblue;
+    padding: .5em;
+}
+
+/*bg image home page*/
+.bg-image{
+    height: 100vh;
+    background-image: url(../images/bg4.jpg);
+    background-size: cover;
+}
+.bg-image .caption1,.caption2,.stories-link{
+    position: absolute;
+    left: 15%;
+    top: 20%;
+    background: #f8f7f0;
+height: 300px;
+width: 300px;
+border: 3px solid #322a22;
+border-radius: 50%;
+}
+.caption1,.caption2,.stories-link{
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    font-family: "Sofia", sans-serif;
+
+    
+    
+
+}
+.stories-link{
+    background: #fc7e02;
+}
+.stories-link a{
+    text-decoration: none;
+    text-align: center;
+    color: #f8f7f0;
+    font-weight: bold;
+
+}
+.stories-link:hover{
+    background: #322a22;
+    color: #f8f7f0;
+    cursor: pointer;
+}
+.caption1,.caption2 h3{
+    padding: 2%;
+}
+.bg-image .caption2{
+    height: 350px;
+    width: 350px;  
+    left: 28%;
+    top: 35%;
+}
+.stories-link{
+    height: 120px;
+    width: 120px;
+    top:68%;
+    left: 47%;
+}
+/* stories design */
+.stories{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    height: 500px;
+    width: 90%;
+    margin: auto;
+    margin-top: 1%;
+    font-family: 'Nunito', sans-serif;
+    font-size: large;
+}
+.individual-story {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+   
+}
+.individual-story .story-image img{
+width: 150px;
+height: 150px;
+border-radius: 50%;
+object-fit: cover;
+}
+.story-p{
+    border-bottom: 2px solid grey;
+}
+.read-more-btn button{
+    background: #fc7e02;
+    width: 100px;
+    padding: 1em;
+    margin-top: .5em;
+    color: #f8f7f0;
+    font-family: sans-serif;
+    
+}
+.story-p p{
+    margin-bottom: 2%;
+}
+.read-all-stories{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+   top: 0;
+    right: 0;
+    background: #fc7e02;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+   
+}
+.read-all-stories a{
+    text-decoration: none;
+    color: #f8f7f0;
+    font-weight: bold;
+}
+.read-all-stories:hover{
+    background: #322a22;
+    color: #f8f7f0;
+    
+}
+.read-all-stories i{
+    color: #f8f7f0;
+}
+.expiriences{
+    width: 90%;
+    margin: auto;
+}
+.expiriences h1{
+    width: 80%;
+    margin: auto;
+    padding: 2%;
+}
+.expiriences-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: large;
+}
+.expiriences-image {
+    width: 65%;
+    
+}
+.expiriences-text{
+    width: 30%;
+}
+.expiriences-image img{
+    height: 400px;
+    width: 90%;
+    object-fit: cover;
+}
+#exp2{
+    margin-top: 1%;
+}
+#exp2text{
+    width: 40%; 
+}
+#exp2image{
+    width: 55%;
+}
+footer{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 150px;
+    background: #322a22;
+}
+footer h1{
+    width: 90%;
+    margin: auto;
+    color: #f8f7f0;
+    border-bottom: 2px solid grey;
+}
+footer .copyright-details{
+    width: 90%;
+    margin: auto;
+    color: #f8f7f0;
+}
+
+.video video{
+
+    height: 108vh;
+    width: 100%;
+   
+    
+}
+
+/*
+.video{
+    display: flex;
+    height: 90vh;
+    background: rgba(58,0,154,255);
+}
+.video .video-container{
+
+    width: 80%;
+    height: 65vh;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 5%;
+   overflow: hidden;
+   border: .8em solid #94a5a8;
+   
+}
+.video .video-container video{
+    width: 100%;
+    
+}
+.video .caption{
+    display: flex;
+    align-items: center;
+    border: 2px solid #94a5a8;
+    width: 25%;
+    height: 3.5em;
+    position: absolute;
+    background: #9ea7b6;
+    top: 88%;
+    right: 7%;
+}
+.video .caption .h{
+    flex: 1;
+    color: #210679;
+    text-align: center;
+}
+.video .caption .p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background: #210679;
+    color: #94a5a8;
+    height: 3.2em;
+    text-align: center;
+}
+*/
+/*stories styling*/
+.team-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url(../images/story1.jpg);
+    background-size: cover;
+    height: 40vh;
+    color: #f8f7f0;
+  /*  color: #072846;*/
+    font-family: 'Nunito', sans-serif;
+    font-size: large;
+    font-weight: 100;
+    margin-bottom: 3%;
+}
+.member-stories{
+    width: 80%;
+    margin: auto;
+       color: #072846;
+      font-family: 'Nunito', sans-serif;
+}
+.member-stories-images{
+    display: flex;
+    justify-content: space-evenly;
+}
+.member-stories-images .image1{
+    height: 600px;
+    width: 45%;
+   
+}
+.member-stories-images .image1 img{
+    width: 100%;
+    height: 595px;
+    object-fit: cover;
+}
+.member-stories-images .images2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 590px;
+    width: 50%;
+    
+}
+.images2 .upper-image{
+    height: 290px;
+   
+}
+.images2 .lower-image{
+    height: 290px;
+    
+}
+.upper-image img{
+    width: 90%;
+    height: 285px;
+    object-fit: cover;
+}
+.lower-image img{
+    width: 90%;
+    height: 285px;
+    object-fit: cover; 
+}
+.story-text{
+    padding: 1.5em,1.5em,.5em,1.5em;
+    margin-bottom: 2em;
+    line-height: 1.8em;
+    border-bottom: 2px solid #94a5a8;
+    font-family: 'Oxygen', sans-serif;
+}
