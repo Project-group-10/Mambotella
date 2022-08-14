@@ -60,7 +60,7 @@ body{
 .bg-image .caption1,.caption2,.stories-link{
     position: absolute;
     left: 15%;
-    top: 20%;
+    top: 27%;
     background: #f8f7f0;
 height: 300px;
 width: 300px;
@@ -99,14 +99,14 @@ border-radius: 50%;
 .bg-image .caption2{
     height: 350px;
     width: 350px;  
-    left: 28%;
-    top: 35%;
+    left: 32%;
+    top: 40%;
 }
 .stories-link{
     height: 120px;
     width: 120px;
     top:68%;
-    left: 47%;
+    left: 53%;
 }
 /* stories design */
 .stories{
