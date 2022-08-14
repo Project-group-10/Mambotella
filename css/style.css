@@ -5,7 +5,8 @@
 }
 /*
 body{
-    background: #f8f7f0;
+    max-width: 1300px;
+    margin: auto;
 }
 */
 /*header styling*/
@@ -400,6 +401,7 @@ width: 10%;
     }
     .authors-container .author-content{
         height: 60vh;
+        overflow-y: scroll;
         margin: auto;
         width: 80%;
         background: #fff;
@@ -431,7 +433,7 @@ width: 10%;
         }
         .content-body .header-details{
            
-            height: 12vh;
+            
             border-bottom:1px solid grey ;
         }
         .content-body .header-details h1{
