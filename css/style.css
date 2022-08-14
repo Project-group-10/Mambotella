@@ -3,12 +3,12 @@
     margin: 0;
     box-sizing: border-box;
 }
-/*
+
 body{
-    max-width: 1300px;
+    max-width: 1200px;
     margin: auto;
 }
-*/
+
 /*header styling*/
 .header{
     display: flex;
