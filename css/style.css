@@ -137,13 +137,14 @@ object-fit: cover;
 .story-p{
     border-bottom: 2px solid grey;
 }
-.read-more-btn button{
+.read-more-btn a{
     background: #fc7e02;
     width: 100px;
     padding: 1em;
     margin-top: .5em;
     color: #f8f7f0;
     font-family: sans-serif;
+    text-decoration: none;
     
 }
 .story-p p{
@@ -536,7 +537,9 @@ width: 10%;
 width: 100%;
 margin-top: 7%;
 }
-
+.read-more-btn {
+margin-top: 1.2em;
+}
 .stories{
     display: block;
     height: auto;
