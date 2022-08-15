@@ -236,7 +236,7 @@ footer .copyright-details{
 
 .video video{
 
-    height: 108vh;
+    height: 122.3vh;
     width: 100%;
    
     
@@ -643,6 +643,25 @@ width: 100%;
                 padding: .3em;
             }
     } 
+    @media only screen and (min-width: 962px) and (max-width: 990px){
+         .video video{
+
+            height: 74.2vh;
+            width: 100%;
+           
+            
+        } 
+
+        }
+        @media only screen and (min-width: 1000px) and (max-width: 1480px){
+            .video video{
+
+                height: 108.7vh;
+                width: 100%;
+               
+                
+            } 
+        }
 
 
 
