@@ -359,6 +359,7 @@ footer .copyright-details{
     border-bottom: 2px solid #94a5a8;
     font-family: 'Oxygen', sans-serif;
 }
+
 /*authors styling */
 
 #person-0{
@@ -474,6 +475,19 @@ width: 10%;
         .contact-us{
             width: 80%;
             margin: auto;
+        }
+
+        .Readmore, .Readmoref, .Readmores, .Readmorea, .Readmorer, .Readmorej{
+            display: none;
+        }
+        .readmorebtn, .readmorebtnf, .readmorebtns, .readmorebtna, .readmorebtnr , .readmorebtnj{
+            cursor: pointer;
+            background: #fc7e02;
+            width: 100px;
+            padding: 1em;
+            margin-top: .5em;
+            color: #f8f7f0;
+            font-family: sans-serif;
         }
 
         /*Responsive design*/
